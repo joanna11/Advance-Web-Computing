@@ -55,7 +55,7 @@ $(document).ready(function(){
 		}
 		
 	});
-	$('$send').click(function(){
+	$('#send').click(function(){
 		var moviesearch = $('#movie').val();
 		if(moviesearch == ""){
 			alert("Please input the required field!");
